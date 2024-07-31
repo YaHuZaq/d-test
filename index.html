@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home page</title>
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+            <span>
+                <span style="color: #1E1E1E; position: relative; font-size: 1.5rem;">D</span> 
+                <span style="color: #fffce9; position: relative;">Global</span> 
+                <span style="color: #666; position: relative;">Tech</span> 
+            </span>
+        </div>
+        <img src="side3.png" width="40px" id="side" onclick="show()">
+        <img src="cancel.png" width="40px" id="other" onclick="hide()">
+        <nav id="clr">
+            
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="service.html">Services</a>
+            <a href="">Rating</a>
+            <a href="">Join</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h3>Build Your progress Now</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, repudiandae natus facere, .</p>
+            <button>contact</button>
+        </div>
+
+        <div class="container1">
+            <h3>Improving capitals</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, repudiandae natus facere, ratione, iure sunt a modi ad accunsectetur excepturi quo nihil quaerat itaque recusandae quas! Tempore.</p>
+
+          <div class="all">
+            <div class="content">
+                <h4>Test</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="content">
+                <h4>Sample</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="content">
+                <h4>Example</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+            <div class="content">
+                <h4>Try</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+    </main>
+
+   <footer>
+     <div class="footer-cont">
+
+     
+     <div class="list">
+        <h2>What do you want</h2>
+        <h3>Portfolio</h3>
+        <h3>Laning page</h3>
+        <h3>Blog</h3>
+        <h3>Business page</h3>
+        <h3>Android and Ios app</h3>
+     </div>
+
+     <div class="social">
+       <img src="facebook.png" width="40px">
+       <img src="insta.png" width="40px">
+       <img src="whatsapp.png" width="45px">
+       <img src="twitter.png" width="40px">
+     </div>
+
+     <div class="list1">
+       
+         <h2>© 2024 D Global <br>All Rights Reserved</h2>
+     </div>
+    </div>
+   </footer>
+
+
+
+     <script>
+        function show() {
+            document.getElementById("clr").style.display ="flex";
+            document.getElementById("side").style.display ="none";
+            document.getElementById("other").style.display ="block";
+        }
+
+        function hide() {
+            document.getElementById("clr").style.display ="none";
+            document.getElementById("side").style.display ="block";
+            document.getElementById("other").style.display ="none";
+        }
+     </script>
+</body>
+</html>
